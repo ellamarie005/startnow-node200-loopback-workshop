@@ -1,16 +1,17 @@
+'use strict';
 module.exports = {
-  "db": {
-    "name": "db",
-    "connector": "memory"
+  'db': {
+    'name': 'db',
+    'connector': 'memory',
   },
-  "MongoDb": {
-    "host": "",
-    "port": 0,
-    "url": "",
-    "database": "",
-    "password": "",
-    "name": "MongoDb",
-    "user": "",
-    "connector": "mongodb"
-  }
-}
+  'MongoDb': {
+    'host': '',
+    'port': 0,
+    'url': '',
+    'database': '',
+    'password': '',
+    'name': 'MongoDb',
+    'user': '',
+    'connector': 'mongodb',
+  },
+};
